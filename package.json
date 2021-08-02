@@ -1,0 +1,34 @@
+{
+  "name": "tvcsm",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "scripts": {
+    "start": "vue-cli-service serve --mode development",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.8.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
